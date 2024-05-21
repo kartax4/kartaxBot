@@ -1,6 +1,9 @@
+//https://discordjs.guide/
+//https://discord.js.org/docs/packages/discord.js/
+//https://discord.com/developers/applications
 const fs = require('node:fs');
 const path = require('node:path');
-const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
+const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const config = require('./config.json');
 require('dotenv').config();
 
